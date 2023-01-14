@@ -1,0 +1,81 @@
+.mainfooter {
+    background-image: url("/resources/img/footer-bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    .container {
+        padding: 20px 0;
+        position: relative;
+        display: flex;
+        overflow: hidden;
+        .col-links {
+            color: var(--secondary-color);
+            display: flex;
+            width: 40%;
+            .col-small {
+                margin: 0 6px;
+                width: calc(100% / 3);
+                .section {
+                    padding-bottom: 10px;
+                }
+                ul {
+                    padding: 14px 0;
+                    list-style: none;
+                    li {
+                        padding: 4px 0;
+                        a {
+                            font-weight: 200;
+                            text-decoration: none;
+                            color: inherit;
+                        }
+                    }
+                }
+            }
+        }
+        img {
+            top: -60px;
+            right: 0;
+            position: absolute;
+        }
+    }
+}
+footer {
+    background-color: var(--quaternary-color);
+    padding: 30px 0;
+    .container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .sign-up {
+            button {
+                cursor: pointer;
+                font-size: 18px;
+                font-weight: 600;
+                background-color: transparent;
+                padding: 10px;
+                color: var(--secondary-color);
+                border: none;
+                border: 2px solid var(--primary-color);
+            }
+        }
+        .follow {
+            display: flex;
+            align-items: center;
+            h4 {
+                color: var(--primary-color);
+                font-weight: 700;
+            }
+            ul {
+                display: flex;
+                list-style: none;
+                li {
+                    padding: 0px 8px;
+                    a {
+                        font-weight: 200;
+                        text-decoration: none;
+                        color: inherit;
+                    }
+                }
+            }
+        }
+    }
+}

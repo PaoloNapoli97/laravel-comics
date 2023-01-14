@@ -1,0 +1,48 @@
+main {
+    background-color: var(--tertiary-color);
+}
+.products {
+    padding-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    padding-bottom: 10px;
+    .tag {
+        padding: 6px 14px;
+        background-color: var(--primary-color);
+        position: absolute;
+        color: var(--secondary-color);
+        top: -24px;
+    }
+    .load-more {
+        padding-top: 20px;
+        margin: auto;
+        button {
+            font-size: 16px;
+            font-weight: 700;
+            padding: 14px 60px;
+            color: var(--secondary-color);
+            background-color: var(--primary-color);
+            border: none;
+            cursor: pointer;
+        }
+    }
+    .product {
+        width: calc(100% / 6);
+        padding: 10px;
+
+        .card {
+            margin-top: 14px;
+            color: var(--secondary-color);
+            a {
+                text-decoration: none;
+                color: inherit;
+            }
+        }
+        img {
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+    }
+}

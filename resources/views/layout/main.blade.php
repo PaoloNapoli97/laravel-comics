@@ -11,7 +11,8 @@
     @include('partials.header')
     
     <main>
-
+        @include('partials.components.products')
+        @include('partials.components.list')
     </main>
 
     @include('partials.footer')

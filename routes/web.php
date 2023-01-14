@@ -15,7 +15,7 @@ use Illuminate\Support\Facades\Route;
 
 
 Route::get('/', function () {
-    $comic = config('comics');
+    $comics = config('comics');
     
-    return view('homepage', compact('comic'));
+    return view('homepage', compact('comics'));
 });
